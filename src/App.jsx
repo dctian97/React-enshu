@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Content from './CatContent';
-
+import Footer from './Footer';
 function App() {
   return (
     <div>
@@ -9,6 +9,7 @@ function App() {
       <div className="container">
         <Content />
       </div>
+      <Footer />
     </div>
   );
 }

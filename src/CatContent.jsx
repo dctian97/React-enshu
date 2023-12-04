@@ -30,7 +30,7 @@ export default function CatContent() {
   };
 
   const handleReloadClick = (breedId) => {
-    fetchBreedImage(breedId); // 重新加载该品种的图片
+    fetchBreedImage(breedId); 
   };
 
   return (
